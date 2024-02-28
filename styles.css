@@ -1,13 +1,32 @@
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #BF7E78;
 }
 
+dl {
+float: right;
+  background-color: #D9BBA0;
+  width: 50%;
+  margin-right: 80px;
+  margin-top: 40px;
+}
+dt{
+font-size: 40px;
+color: white;
+margin-left: 10px;
+margin-top: 10px;
+}
+dd{
+font-size: 30px;
+padding: 20px;
+color:white;
+}
+
 li {
   float: left;
+  margin-left: 65px;
 }
 
 li a {
@@ -20,6 +39,8 @@ li a {
 }
 li a.active{
   background-color: #83593B
+    padding: 10px;
+
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -38,6 +59,18 @@ h1{
     text-align: center;
     color: #5C4033;
     font-size: 50px;
+    font-family: serif;
+
+}
+
+h2{
+    float: center;
+    text-align: center;
+    color: #A67C58;
+    font-size: 30px;
+    margin-top:0px;
+    font-family: Georgia, serif;
+
 
 }
 
@@ -47,6 +80,29 @@ p{
     background-color: #D9BBA0;
     padding: 30px;
     margin-left: 60px;
+}
+
+.p-center{
+font-size: 30px;
+    width: 87%;
+    background-color: #D9BBA0;
+    padding: 30px;
+}
+
+.pinker-background{
+    background-color: #BF7E78;
+    color: white;
+}
+
+.about-text{
+    margin-top: 110px;
+    margin-left: 80px;
+}
+
+.asylum-text-1{
+    margin-top: 65px;
+    width: 55%;
+
 }
 
 .logo-div{
@@ -59,7 +115,80 @@ height: 415px;
 
 }
 
+.logo-div-left{
+float: left;
+}
+.pic-left{
+margin-left: 120px;
+margin-top: 0px;
+height: 500px;
+margin-bottom: 50px;
+}
+
+.about-pic{
+margin-right: 80px;
+margin-top: 20px;
+height: 500px;
+margin-bottom: 50px;
+
+}
+
 .title-space{
     margin-top: 60px;
 }
 
+.left-float{
+float:left;
+width: 55%;
+}
+.left-float-div{
+float:left;
+margin-left: 60px;
+}
+
+.stair-pic{
+    height: 550px;
+    margin-top: 150px;
+}
+
+.move-down{
+    margin-top: 50px;
+}
+
+.move-down2{
+margin-top: 95px;
+}
+
+.coffee-back{
+    background-color: #6F4E37;
+}
+
+.tan-back{
+background-color: #C19A6B;
+}
+
+.black-text{
+    color: black;
+}
+
+a{
+color: #6F4E37;
+}
+
+.move-down-40{
+    margin-top: 40px;
+}
+
+.tree-pic{
+height: 280px;
+margin-top: 0px;
+}
+.tree-pic2{
+height: 255px;
+margin-top: 0px;
+}
+
+.p-right{
+float: right;
+margin-right: 60px;
+}
