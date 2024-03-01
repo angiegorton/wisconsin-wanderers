@@ -38,12 +38,11 @@ li a {
   font-size: 30px;
 }
 li a.active{
-  background-color: #83593B
-    padding: 10px;
+  background-color: #83593B;
+   padding: 10px;
 
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #83593B;
   color: white;
@@ -55,7 +54,6 @@ body {background-color: #f9f8eb;}
 
 
 h1{
-    float: center;
     text-align: center;
     color: #5C4033;
     font-size: 50px;
@@ -64,7 +62,6 @@ h1{
 }
 
 h2{
-    float: center;
     text-align: center;
     color: #A67C58;
     font-size: 30px;
@@ -191,4 +188,28 @@ margin-top: 0px;
 .p-right{
 float: right;
 margin-right: 60px;
+}
+
+.hall-left{
+float: left;
+margin-left: 60px;
+height: 440px;
+margin-top: 30px;
+}
+
+.skinny-width{
+width: 40%;
+}
+
+.more-margin{
+margin-top: 200px;
+}
+
+.smaller-size{
+height: 390px;
+}
+h6{
+margin-left: 60px;
+color: #A67C58;
+
 }
